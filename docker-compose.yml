@@ -1,0 +1,20 @@
+version: '3'
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins #Name image downloaded 
+    ports:
+      - "8080:8080"
+    volumes:
+      - "$PWD/jenkins_home:/var/jenkins_home" #To store information -> source:dest
+    networks:
+      - net
+  remote_host:
+    container_name: remote-host
+    image: remote-host #Our election, we don´t downloaded the image
+    build:
+      context: centos7 #Directory where is located our Dockerfile
+    networks:
+      - net #Require to connect this remote-host with jenkins
+networks:
+  net: 

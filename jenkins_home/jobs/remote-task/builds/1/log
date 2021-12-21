@@ -1,0 +1,14 @@
+Started by user [8mha:////4DJR/NrbSn8+mL44BNewtLLSaE0xZ2kCU7eAoEY2L+S/AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgY+/dLi1CL95MSinPzi9CIASnRG98MAAAA=[0mCarlos Gómez Ramos
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote-task
+[SSH] executing pre build script:
+
+
+[remote-task] $ /bin/sh -xe /tmp/jenkins18307290275076715648.sh
++ NAME=Carlos
++ date
++ echo Hello, my name is Carlos. Current date is Tue Dec 21 18:31:50 UTC 2021
+[SSH] executing post build script:
+
+
+Finished: SUCCESS
